@@ -1,0 +1,28 @@
+.widget {
+    color: aliceblue;
+    flex: 0.2;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height: fit-content;
+    background-color: transparent;
+  }
+  
+  .widget__header {
+    border-bottom: 1px solid rgb(242, 242, 242);
+  }
+  
+  .widget__header > h5 {
+    padding: 10px;
+    color: rgb(234, 233, 233);
+    font-size: 15px;
+    letter-spacing: 1.1px;
+  }
+  
+  .widget__contents {
+    display: flex;
+    flex-direction: column;
+  }
